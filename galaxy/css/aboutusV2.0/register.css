@@ -1,0 +1,58 @@
+
+#item1{
+	position: relative;
+	height: 878px;
+	width: 100%;
+	min-width:1200px ;
+}
+.item1bg img{
+	width: 100%;
+	height: 878px;
+	min-width: 1200px;
+}
+.item1content{
+	margin-top: 134px;
+	height: 744px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+}
+.animated{
+	-webkit-animation-duration:1s;
+    animation-duration:2s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+.itemcenter1{
+	width: 410px;
+	margin: 120px auto;
+	text-align: center;
+	height: 340px;
+	background-color: #fff;
+	padding: 20px 20px 50px 20px;
+}
+.logotit img{
+	width: 200px;
+	height: 60px;
+}
+.itemcenter1 input{
+	width: 95%;
+	height: 36px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+.itemcenter1 input:focus{
+	border: 1px solid #0067B8;
+}
+.itemcenter1 .regbtn{
+	width: 100%;
+	background-color: #0067b8;
+	height: 36px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	cursor: pointer;
+}

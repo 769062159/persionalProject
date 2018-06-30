@@ -1,0 +1,14 @@
+$(function(){
+	$(".tra5").on("click",function(){
+		$("#login").show();
+		$("html,body").addClass("stop");
+		$(".screen").show()
+		$(".itemcenter1").hide()
+	})
+	$(".close").on("click",function(){
+		$("#login").hide();
+		$("html,body").removeClass("stop");
+		$(".screen").hide()
+		$(".itemcenter1").show()
+	})
+})
